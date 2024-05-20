@@ -1,8 +1,7 @@
-# ArduinoSnake
-by e4rdx
+# sCade
 
 ## Description
-This is a simple snake game for Arduino. It utilizes a monochrome 128x64 OLED display and a joystick for input. The game is written in C++ and is based on the Adafruit SSD1306 library.
+This is the code for the sCade project, a small arcade machine. The game is written in C++ and is based on the Adafruit SSD1306 library.
 
 ## Intended Hardware
 - Microcontroller: Seeeeduino XIAO
@@ -28,6 +27,11 @@ This is a simple snake game for Arduino. It utilizes a monochrome 128x64 OLED di
     - SIG -> A0
 
 ## Installation
+### Using VS-Code
+1. Open VS-Code, go to extensions and search for `PlatformIO IDE` and install it
+2. Clone the repository
+3. Open the repository using the newly added PlatformIO icon in the menu on the left
+### Using other IDEs
 1. Clone the repository
 2. Open in your preferred IDE
 3. Install platformIO using pip: `pip install platformio`
