@@ -1,0 +1,2 @@
+import os
+os.environ['PLATFORMIO_UPLOAD_PORT'] = 'yourportname' # change yourportname to the port name of your device (e.g. COM3 or /dev/ttyUSB0)
